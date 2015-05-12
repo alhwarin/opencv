@@ -994,6 +994,11 @@ protected:
 };
 
 
+class CV_EXPORTS_W CRVBMatcher : public DescriptorMatcher
+{
+};
+
+
 /** @brief Flann-based descriptor matcher.
 
 This matcher trains flann::Index_ on a train descriptor collection and calls its nearest search
